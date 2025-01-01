@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+header{
+    height: 50px;
+    width: 100%;
+    color: #FFC300;
+    background-color: #00b3c6;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px dotted #2040ed ;
+
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    background-image: url(radha.png);
+    background-size: contain;
+}
+.content{
+    height: 800px;
+    width: 100%;
+    background-image: url(body.jpg);
+    background-size: cover;
+}
+/**circle**/
+.box{
+    height: 650px;
+    width: 650px;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b1{
+    height: 415px;
+    width: 415px;
+    border-radius: 50%;
+    border: 10px solid gray;
+    border-top-color: pink;
+    display: inline-block;
+    animation: loader 2s ease 0s infinite normal;
+    
+}
+/*@keyframes loader {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    
+}*/
+.box1{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 8px solid white;
+    background-image: url(main.jpeg);
+    background-size: cover;
+    border: border-box;
+    
+}
+/**wish**/
+.wishes{
+    display: flex;
+    justify-content: center;
+    background-color: #ffdbac;
+    border-radius: 15px;
+}
+
+    
+
+#h{
+    color: #581845;
+    text-decoration:underline solid;
+}
+.para-box{
+    height: 300px;
+    background-color: pink; 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+P{
+    color: pink;
+}
+p:active{
+    color: #C70039;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/** content2**/
+.content2{
+    height: 300px;
+
+    background-color: #ab6b59;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#content2-hd{
+    font-size: 20px;
+    margin-top:130px;
+    color: wheat;
+}
+.box2{
+    height: 250px;
+    width: 250px;
+    color: black;
+    margin-top: 40px;
+    background-color: #f16a52;
+}
+.box3{
+    height: 250px;
+    width: 250px;
+    color: black;
+    margin-top: 40px;
+    background-color:#FFC300;
+}
+.box4{
+    height: 250px;
+    width: 250px;
+    color: black;
+    margin-top: 40px;
+    background-color: #52f1ad;
+}
+.box5{
+    height: 250px;
+    width: 250px;
+    color: black;
+    margin-top: 40px;
+    background-color: #52e6f1;
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+}
