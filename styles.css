@@ -41,8 +41,8 @@ header{
     align-items: center;
 }
 .b1{
-    height: 415px;
-    width: 415px;
+    height: 315px;
+    width: 315px;
     border-radius: 50%;
     border: 10px solid gray;
     border-top-color: pink;
@@ -50,18 +50,9 @@ header{
     animation: loader 2s ease 0s infinite normal;
     
 }
-/*@keyframes loader {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-    
-}*/
 .box1{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     border: 8px solid white;
     background-image: url(main.jpeg);
