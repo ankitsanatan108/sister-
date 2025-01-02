@@ -34,7 +34,6 @@ header{
 .box{
     height: 650px;
     width: 650px;
-    
     text-align: center;
     display: flex;
     justify-content: center;
