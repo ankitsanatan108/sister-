@@ -93,7 +93,7 @@ header{
 P{
     color: pink;
 }
-p: active {
+p:active{
     color: #C70039;
     font-weight: bold;
     font-size: 25px;
